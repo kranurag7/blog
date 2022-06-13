@@ -1,4 +1,0 @@
-baseURL = 'https://kranurag7.github.io/blog/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hugo-PaperMod"

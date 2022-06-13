@@ -1,0 +1,35 @@
+baseURL: "https://kranurag7.github.io/blog"
+title: kranurag7 blog 
+paginate: 5
+theme: hugo-PaperMod
+
+
+params:
+    profileMode:
+        enabled: true
+        title: "kranurag7 blog"
+        subtitle: "Golang and Cloudnative"
+        imageUrl: "https://github.com/kranurag7.png" 
+        imageTitle: "just another image" 
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        
+    socialIcons: 
+        - name: "github"
+          url: "https://github.com/kranurag7"
+        - name: "twitter"
+          url: "https://twitter.com/KrAnurag7"
+    ShowCodeCopyButtons: true
+
+    
+menu:
+    main:
+      - name: blog
+        url: posts
+        weight: 5
+      - name: cloudnative 
+        url: cloudnative
+        weight: 10
+      - name: go
+        url: golang 
+      
